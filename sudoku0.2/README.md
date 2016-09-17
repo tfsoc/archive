@@ -12,9 +12,9 @@ The Game presents player with three difficulty levels:
 - Normal
 - Hard
 
-Each level is generated based on *seed* by performing a set of permutations, which does not affect correctness of given puzzle. (This algorithm does not guarantee *uniqueness* of solution.)
+Each level is generated based on*seed by performing a set of permutations, which does not affect correctness of given puzzle. (This algorithm does not guarantee *uniqueness* of solution.)
 
-Game ends when player either choose to reveal the answer or fills all the fields with correct numbers (*noncontradictory*). Score is recorded based on time taken to find solution and stored in separate text file.
+Game ends when player either choose to reveal the answer or fills all the fields with correct numbers *(noncontradictory)*. Score is recorded based on time taken to find solution and stored in separate text file.
 
 ### Screenshot
 
