@@ -7,7 +7,7 @@ Written in Visual Studio 2013.
 
 ### Screenshot
 
-![Screenshot](screenshot.JPG "Sudoku screen")
+![Screenshot](screenshot.JPG "Sudoku screeenshot")
 
 ## Overview
 
