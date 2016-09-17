@@ -5,10 +5,6 @@ Made as an C# Programming III module project.
 
 Written in Visual Studio 2013.
 
-### Screenshot
-
-![Screenshot](screenshot.JPG "Sudoku screeenshot")
-
 ## Overview
 
 The Game presents player with three difficulty levels:
@@ -19,6 +15,10 @@ The Game presents player with three difficulty levels:
 Each level is generated based on *seed* by performing a set of permutations, which does not affect correctness of given puzzle. (This algorithm does not guarantee *uniqueness* of solution.)
 
 Game ends when player either choose to reveal the answer or fills all the fields with correct numbers (*noncontradictory*). Score is recorded based on time taken to find solution and stored in separate text file.
+
+### Screenshot
+
+![Screenshot](screenshot.JPG "Sudoku screeenshot")
 
 ## Possible improvements
 * Highlighting contradictory answers
