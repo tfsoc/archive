@@ -7,9 +7,7 @@ Written in Visual Studio 2013.
 
 ### Screenshot
 
-<p align="center">
-  <img src="screenshot.JPG" alt="Screenshot"/>
-</p>
+![Screenshot](/screenshot.JPG "Title")
 
 ## Overview
 
