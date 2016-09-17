@@ -1,0 +1,229 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>sudoku0.2</name>
+    </assembly>
+    <members>
+        <member name="M:sudoku0._2.Highscore.#ctor(System.String)">
+            <summary>
+            Creates an instance of highscore record
+            </summary>
+            <param name="line">string in format "%level% %userName% %time%"</param>
+        </member>
+        <member name="M:sudoku0._2.Highscore.op_GreaterThan(sudoku0._2.Highscore,sudoku0._2.Highscore)">
+            <summary>
+            Define the is greater than operator.
+            </summary>
+            <param name="operand1"></param>
+            <param name="operand2"></param>
+            <returns></returns>
+        </member>
+        <member name="M:sudoku0._2.Highscore.op_LessThan(sudoku0._2.Highscore,sudoku0._2.Highscore)">
+            <summary>
+             Define the is less than operator.
+            </summary>
+            <param name="operand1"></param>
+            <param name="operand2"></param>
+            <returns></returns>
+        </member>
+        <member name="M:sudoku0._2.Highscore.op_GreaterThanOrEqual(sudoku0._2.Highscore,sudoku0._2.Highscore)">
+            <summary>
+             Define the is greater than or equal to operator.
+            </summary>
+            <param name="operand1"></param>
+            <param name="operand2"></param>
+            <returns></returns>
+        </member>
+        <member name="M:sudoku0._2.Highscore.op_LessThanOrEqual(sudoku0._2.Highscore,sudoku0._2.Highscore)">
+            <summary>
+            Define the is less than or equal to operator.
+            </summary>
+            <param name="operand1"></param>
+            <param name="operand2"></param>
+            <returns></returns>
+        </member>
+        <member name="M:sudoku0._2.Sudoku.#ctor">
+            <summary>
+            Creates new instance of sudoku with a sample matrix seed
+            </summary>
+        </member>
+        <member name="M:sudoku0._2.Sudoku.countLeft">
+            <summary>
+            Counts empty cells
+            </summary>
+            <returns>how many cells are left to be filled</returns>
+        </member>
+        <member name="M:sudoku0._2.Sudoku.endGame">
+            <summary>
+            Checks if all cells are filled and filled correctly
+            </summary>
+            <returns>true if game solved correctly, false if there was an error</returns>
+        </member>
+        <member name="M:sudoku0._2.Sudoku.newGame(System.Int32)">
+            <summary>
+            amount of givens ranges in each difficulty level : (1)32-48, (2)28-35, (3)24-30
+            </summary>
+            <param name="difficulty">1 = easy, 2 = normal and 3 = hard</param>
+        </member>
+        <member name="M:sudoku0._2.Sudoku.transposing">
+            <summary>
+            Transposing sudoku answer matrix
+            </summary>
+        </member>
+        <member name="M:sudoku0._2.Sudoku.swap_rows_small">
+            <summary>
+            Swaps two random rows in a block
+            </summary>
+        </member>
+        <member name="M:sudoku0._2.Sudoku.swap_columns_small">
+            <summary>
+            Swaps two random columns within a block
+            </summary>
+        </member>
+        <member name="M:sudoku0._2.Sudoku.swap_rows_area">
+            <summary>
+            Swaps two random rows of blocks
+            </summary>
+        </member>
+        <member name="M:sudoku0._2.Sudoku.swap_columns_area">
+            <summary>
+            Swaps two random columns of blocks
+            </summary>
+        </member>
+        <member name="M:sudoku0._2.Sudoku.mix(System.Int32)">
+            <summary>
+            Generates new tab by permutations that dont change the correctness of sudoku matrix
+            </summary>
+            <param name="times">determines how many times to permute the matrix</param>
+        </member>
+        <member name="M:sudoku0._2.Sudoku.Swap``1(``0@,``0@)">
+            <summary>
+            Swaps two variables' values
+            </summary>
+            <typeparam name="T">type of variable</typeparam>
+            <param name="lhs">variable1</param>
+            <param name="rhs">variable2</param>
+        </member>
+        <member name="M:sudoku0._2.Sudoku.ToString">
+            <summary>
+            Answer matrix values from left to right, top to buttom forming a answer string
+            </summary>
+            <returns>answer string</returns>
+        </member>
+        <member name="P:sudoku0._2.Sudoku.tab">
+            <summary>
+            answer list
+            </summary>
+        </member>
+        <member name="P:sudoku0._2.Sudoku.game_tab">
+            <summary>
+            answer list with blanks for user to fill
+            </summary>
+        </member>
+        <member name="P:sudoku0._2.Sudoku.game_tab_copy">
+            <summary>
+            problem set plus users' answer
+            </summary>
+        </member>
+        <member name="M:sudoku0._2.SudokuSolver.solution(System.String)">
+            <summary>
+            DFS algorithm based solution existence test
+            </summary>
+            <param name="s">matrix of problem in forms of string with values from left to right, top to buttom</param>
+            <returns>true if solution exists and false otherwise</returns>
+        </member>
+        <member name="M:sudoku0._2.SudokuSolver.place(System.Int32)">
+            <summary>
+            search for first good value in position pos
+            </summary>
+            <param name="pos">position of current cell</param>
+        </member>
+        <member name="M:sudoku0._2.SudokuSolver.check(System.Int32,System.Int32,System.Int32)">
+            <summary>
+            Check if value val can be placed in cell with indexes X,Y
+            </summary>
+            <param name="val">testing value from 0-9</param>
+            <param name="x">left to right position from 0-9</param>
+            <param name="y">top to buttom position from 0-9</param>
+            <returns>true if this value can be places there</returns>
+        </member>
+        <member name="T:sudoku0._2.App">
+            <summary>
+            Interaction logic for App.xaml
+            </summary>
+            <summary>
+            App
+            </summary>
+        </member>
+        <member name="M:sudoku0._2.App.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="M:sudoku0._2.App.Main">
+            <summary>
+            Application Entry Point.
+            </summary>
+        </member>
+        <member name="T:sudoku0._2.MainWindow">
+            <summary>
+            Interaction logic for MainWindow.xaml
+            </summary>
+            <summary>
+            MainWindow
+            </summary>
+        </member>
+        <member name="M:sudoku0._2.MainWindow.recordWin">
+            <summary>
+            Block input boxes and add highscore record if recordScore value is true
+            </summary>
+        </member>
+        <member name="M:sudoku0._2.MainWindow.showLeaders">
+            <summary>
+            Show top 5 leaders in comboBox selected difficulty level
+            </summary>
+        </member>
+        <member name="M:sudoku0._2.MainWindow.nowaGra_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Generate new game problem set in selected difficulty level
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:sudoku0._2.MainWindow.Button_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Show answers and do not record the highscore
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:sudoku0._2.MainWindow.Button_Click_1(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Invoke Show Leaders
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:sudoku0._2.MainWindow.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:sudoku0._2.Properties.Resources">
+            <summary>
+              A strongly-typed resource class, for looking up localized strings, etc.
+            </summary>
+        </member>
+        <member name="P:sudoku0._2.Properties.Resources.ResourceManager">
+            <summary>
+              Returns the cached ResourceManager instance used by this class.
+            </summary>
+        </member>
+        <member name="P:sudoku0._2.Properties.Resources.Culture">
+            <summary>
+              Overrides the current thread's CurrentUICulture property for all
+              resource lookups using this strongly typed resource class.
+            </summary>
+        </member>
+    </members>
+</doc>

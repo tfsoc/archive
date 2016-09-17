@@ -1,0 +1,15 @@
+c:\users\yan\documents\visual studio 2013\Projects\sudoku0.2\sudoku0.2\bin\Debug\sudoku0.2.exe
+c:\users\yan\documents\visual studio 2013\Projects\sudoku0.2\sudoku0.2\bin\Debug\sudoku0.2.exe.config
+c:\users\yan\documents\visual studio 2013\Projects\sudoku0.2\sudoku0.2\obj\Debug\MainWindow.baml
+c:\users\yan\documents\visual studio 2013\Projects\sudoku0.2\sudoku0.2\obj\Debug\MainWindow.g.cs
+c:\users\yan\documents\visual studio 2013\Projects\sudoku0.2\sudoku0.2\obj\Debug\App.g.cs
+c:\users\yan\documents\visual studio 2013\Projects\sudoku0.2\sudoku0.2\obj\Debug\sudoku0.2_MarkupCompile.cache
+c:\users\yan\documents\visual studio 2013\Projects\sudoku0.2\sudoku0.2\obj\Debug\sudoku0.2.g.resources
+c:\users\yan\documents\visual studio 2013\Projects\sudoku0.2\sudoku0.2\obj\Debug\sudoku0._2.Properties.Resources.resources
+c:\users\yan\documents\visual studio 2013\Projects\sudoku0.2\sudoku0.2\obj\Debug\sudoku0.2.csproj.GenerateResource.Cache
+c:\users\yan\documents\visual studio 2013\Projects\sudoku0.2\sudoku0.2\obj\Debug\sudoku0.2.exe
+c:\users\yan\documents\visual studio 2013\Projects\sudoku0.2\sudoku0.2\obj\Debug\sudoku0.2.pdb
+c:\users\yan\documents\visual studio 2013\Projects\sudoku0.2\sudoku0.2\bin\Debug\sudoku0.2.pdb
+C:\Users\Yan\documents\visual studio 2013\Projects\sudoku0.2\sudoku0.2\obj\Debug\sudoku0.2.csprojResolveAssemblyReference.cache
+C:\Users\Yan\documents\visual studio 2013\Projects\sudoku0.2\sudoku0.2\obj\Debug\sudoku0.2_MarkupCompile.lref
+C:\Users\Yan\documents\visual studio 2013\Projects\sudoku0.2\sudoku0.2\bin\Debug\sudoku0.2.XML

@@ -1,0 +1,20 @@
+﻿<Window
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:local="clr-namespace:sudoku0._2" x:Class="sudoku0._2.MainWindow"
+        Title="MainWindow" Height="622.781" Width="487">
+    <Grid>
+        <TextBox FontSize="32" IsReadOnly="True" x:Name="textBox1" HorizontalAlignment="Left" Height="50" Margin="10,10,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="450"/>
+        <Button x:Name="nowaGra" Content="new game" HorizontalAlignment="Left" Margin="385,65,0,0" VerticalAlignment="Top" Width="75" Click="nowaGra_Click"/>
+        <StackPanel x:Name="pole" Orientation="Vertical" HorizontalAlignment="Left" Height="450" Margin="10,92,0,0" VerticalAlignment="Top" Width="450"/>
+        <ComboBox x:Name="combo1" SelectedIndex="0" HorizontalAlignment="Left" Margin="99,65,0,0" VerticalAlignment="Top" Width="120">
+            <ComboBoxItem>Easy</ComboBoxItem>
+            <ComboBoxItem>Normal</ComboBoxItem>
+            <ComboBoxItem>Hard</ComboBoxItem>
+        </ComboBox>
+        <Label Content="Difficulty level" HorizontalAlignment="Left" Margin="10,65,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="showans" IsEnabled="False" Content="Show answer" HorizontalAlignment="Left" Margin="10,547,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click"/>
+        <Label x:Name="lblSeconds" Content="Time: 0" HorizontalAlignment="Left" Margin="215,547,0,0" VerticalAlignment="Top"/>
+        <Button Content="Leaders" HorizontalAlignment="Left" Margin="385,549,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click_1"/>
+    </Grid>
+</Window>
