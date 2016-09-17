@@ -20,5 +20,11 @@ Each level is generated based on *seed* by performing a set of permutations, whi
 
 Game ends when player either choose to reveal the answer or fills all the fields with correct numbers (*noncontradictory*). Score is recorded based on time taken to find solution and stored in separate text file.
 
+## Possible improvements
+* Highlighting contradictory answers
+* Option to Save/Load game
+* Input method with drag and drop numbers
+* Counter for numbers left
+
 ## Reference
 [Sudoku Puzzles Generating: from Easy to Evil](http://zhangroup.aporc.org/images/files/Paper_3485.pdf)
