@@ -3,5 +3,5 @@
 ### Screenshot
 
 <p align="center">
-  <img src="screenshot.jpg" alt="Screenshot"/>
+  <img src="screenshot.JPG" alt="Screenshot"/>
 </p>
