@@ -1,4 +1,4 @@
-#Trancated Cube (Trancated Hexahedron)
+# Trancated Cube (Trancated Hexahedron)
 
 Qt framework based project "Truncated cube model" which include:
 * color filled polygons

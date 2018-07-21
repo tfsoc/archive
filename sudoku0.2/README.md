@@ -1,4 +1,4 @@
-#Sudoku
+# Sudoku
 
 Small version of Sudoku game (simplified clone).
 

@@ -1,0 +1,435 @@
+/* roboto-100 - cyrillic_latin */
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 100;
+    src: url('../fonts/roboto-v18-cyrillic_latin-100.eot'); /* IE9 Compat Modes */
+    src: local('Roboto Thin'), local('Roboto-Thin'),
+         url('../fonts/roboto-v18-cyrillic_latin-100.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/roboto-v18-cyrillic_latin-100.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/roboto-v18-cyrillic_latin-100.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/roboto-v18-cyrillic_latin-100.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/roboto-v18-cyrillic_latin-100.svg#Roboto') format('svg'); /* Legacy iOS */
+}
+/* roboto-300 - cyrillic_latin */
+@font-face {
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 300;
+src: url('../fonts/roboto-v18-cyrillic_latin-300.eot'); /* IE9 Compat Modes */
+src: local('Roboto Light'), local('Roboto-Light'),
+        url('../fonts/roboto-v18-cyrillic_latin-300.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+        url('../fonts/roboto-v18-cyrillic_latin-300.woff2') format('woff2'), /* Super Modern Browsers */
+        url('../fonts/roboto-v18-cyrillic_latin-300.woff') format('woff'), /* Modern Browsers */
+        url('../fonts/roboto-v18-cyrillic_latin-300.ttf') format('truetype'), /* Safari, Android, iOS */
+        url('../fonts/roboto-v18-cyrillic_latin-300.svg#Roboto') format('svg'); /* Legacy iOS */
+}
+/* roboto-regular - cyrillic_latin */
+@font-face {
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+src: url('../fonts/roboto-v18-cyrillic_latin-regular.eot'); /* IE9 Compat Modes */
+src: local('Roboto'), local('Roboto-Regular'),
+        url('../fonts/roboto-v18-cyrillic_latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+        url('../fonts/roboto-v18-cyrillic_latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+        url('../fonts/roboto-v18-cyrillic_latin-regular.woff') format('woff'), /* Modern Browsers */
+        url('../fonts/roboto-v18-cyrillic_latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+        url('../fonts/roboto-v18-cyrillic_latin-regular.svg#Roboto') format('svg'); /* Legacy iOS */
+}
+/* roboto-500 - cyrillic_latin */
+@font-face {
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+src: url('../fonts/roboto-v18-cyrillic_latin-500.eot'); /* IE9 Compat Modes */
+src: local('Roboto Medium'), local('Roboto-Medium'),
+        url('../fonts/roboto-v18-cyrillic_latin-500.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+        url('../fonts/roboto-v18-cyrillic_latin-500.woff2') format('woff2'), /* Super Modern Browsers */
+        url('../fonts/roboto-v18-cyrillic_latin-500.woff') format('woff'), /* Modern Browsers */
+        url('../fonts/roboto-v18-cyrillic_latin-500.ttf') format('truetype'), /* Safari, Android, iOS */
+        url('../fonts/roboto-v18-cyrillic_latin-500.svg#Roboto') format('svg'); /* Legacy iOS */
+}
+/* roboto-700 - cyrillic_latin */
+@font-face {
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+src: url('../fonts/roboto-v18-cyrillic_latin-700.eot'); /* IE9 Compat Modes */
+src: local('Roboto Bold'), local('Roboto-Bold'),
+        url('../fonts/roboto-v18-cyrillic_latin-700.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+        url('../fonts/roboto-v18-cyrillic_latin-700.woff2') format('woff2'), /* Super Modern Browsers */
+        url('../fonts/roboto-v18-cyrillic_latin-700.woff') format('woff'), /* Modern Browsers */
+        url('../fonts/roboto-v18-cyrillic_latin-700.ttf') format('truetype'), /* Safari, Android, iOS */
+        url('../fonts/roboto-v18-cyrillic_latin-700.svg#Roboto') format('svg'); /* Legacy iOS */
+}
+/* roboto-900 - cyrillic_latin */
+@font-face {
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 900;
+src: url('../fonts/roboto-v18-cyrillic_latin-900.eot'); /* IE9 Compat Modes */
+src: local('Roboto Black'), local('Roboto-Black'),
+        url('../fonts/roboto-v18-cyrillic_latin-900.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+        url('../fonts/roboto-v18-cyrillic_latin-900.woff2') format('woff2'), /* Super Modern Browsers */
+        url('../fonts/roboto-v18-cyrillic_latin-900.woff') format('woff'), /* Modern Browsers */
+        url('../fonts/roboto-v18-cyrillic_latin-900.ttf') format('truetype'), /* Safari, Android, iOS */
+        url('../fonts/roboto-v18-cyrillic_latin-900.svg#Roboto') format('svg'); /* Legacy iOS */
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html{
+    height: 100%;
+    -webkit-font-smoothing: antialiased;
+}
+
+body{
+    background-image: url("../images/bg-main.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.8);
+    background-blend-mode: multiply;
+    height: 100%;
+    /*
+    font-family: 
+    */
+    font-family: "Roboto","Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+}
+
+.container {
+    min-height: 100%;
+    height: 100%;
+    min-width: 100%;
+    display: block;
+}
+
+.centered {
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    -moz-transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.centeredY{
+    position: relative;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+     transform: translateY(-50%);
+}
+
+.centeredX {
+    position: absolute;
+    left: 50%;
+    bottom: 70%;
+}
+
+.logo{
+    max-width: 180vh;
+}
+
+.box-logo{
+    position: relative;
+    height: 70%;
+}
+
+.box-arrow{
+    position: relative;
+    height: 30%;
+}
+
+
+.shape {
+    position: absolute;
+    margin:0;
+    padding:0%;
+    height: 45px;
+    width: 45px;
+    border-bottom: 2px solid white;
+    border-right: 2px solid white;
+    -moz-transform: rotate(45deg) translate(-35%, 35%);
+    -webkit-transform: rotate(45deg) translate(-35%, 35%);
+    transform: rotate(45deg) translate(-35%, 35%);
+    /* Replace with icon OR change 35 values to 50/sqrt(2) in preprocessor later */
+  }
+
+  .clients{
+    background-color: rgba(0, 0, 0, 1);
+    color:white;
+    display: inline-block;
+    position: static;
+    height: 110%;
+  }
+
+
+
+
+  .clients-header{
+      text-transform: uppercase;
+      text-align: center;
+      padding-top:1.9em;
+      padding-bottom:0em;
+      margin:0;
+      font-weight:100;
+      font-size: 3.5em;
+      letter-spacing: -3px;;
+  }
+
+  .clients-desc{
+    text-align: center;
+    text-justify: auto;
+    font-size: 1.48em;
+    font-weight:100;
+    padding-top: 1.1em;
+    padding-bottom: 2.0em;
+    letter-spacing: 0em;
+    color: #888;
+    margin:0;   
+}
+
+  #line{
+    margin:auto;
+    width: 120px;
+    border-bottom: 0.1em solid #888;
+    margin-bottom: 50px;
+}
+
+ 
+.clients-list{
+    margin:0 auto;
+    width: 950px;
+}
+
+
+@media all{
+    .clients-list{
+        width: 90%;
+    }
+    .clients-logo{
+        width: 50%;
+        padding: 0 1%;
+        float:left;
+    }
+    .clients-logo img{
+        width: 80%;
+        height: auto;
+        margin: 0;
+        margin-bottom: 30px;
+    }
+    .clients{
+        height: auto;
+        padding-bottom: 40px;
+        margin-bottom: 80px;
+    }
+
+    #contacts-line{
+        border-right:0px solid white;
+        border-top:1px solid white;
+        margin: 60px 120px;
+        width:200px;
+    }
+
+    .contacts-col{
+        width: 80%;
+    }
+    .contacts-phone, .contacts-address, .contacts-mail{
+        font-size:20px;
+        line-height: initial;
+        margin-bottom: 20px;
+    }
+}
+
+@media (min-width: 900px) {
+    .contacts-phone, .contacts-address, .contacts-mail{
+        font-size:20px;
+        line-height: 2.3;
+        margin-bottom: 0;
+    }
+    .clients-list{
+        width: 95%;
+    }
+    .clients-logo{
+        width: 25%;
+        padding: 0 25px;
+        float: none;
+    }
+    .clients-logo img{
+        max-width: 90%;
+        max-height: 100px;
+        height: auto;
+        width: auto;
+        margin: 0px;
+        margin-bottom: 35px;
+    }
+    .clients{
+        margin-bottom: 60px;
+    }
+    .contacts-col:first-of-type{
+        padding-left:50px;
+    }
+
+    .contacts-col{
+        width: initial;   
+    }
+    
+}
+
+@media (min-width: 1000px) {
+    .clients-list{
+        width: 980px;
+    }
+    .clients-logo img{
+        max-width: 100%;
+    }
+    .clients{
+        margin-bottom: 0px;
+    }
+    #contacts-line{
+        width:0px;
+        margin: 0;
+        border-right:1px solid white;
+        border-bottom:0px solid white;
+    }
+    .contacts-col:first-of-type{
+        padding-left:0;
+    }
+}
+
+@media (min-width: 1200px) {
+    .clients-list{
+        width: 1000px;
+    }
+}
+
+@media (min-width: 1800px) {
+    .clients-list{
+        width: 980px;
+    }
+    
+}
+
+
+
+  .clients-logo{
+      display: inline-block;
+      height:auto;
+      box-sizing: border-box;
+  }
+
+  
+
+  .clients-logo img{
+    padding: 0;
+  }
+
+
+
+
+
+  .contacts{
+    position: static;
+    display: inline-block;
+    color:white;
+    height: 100%;
+  }
+
+  .contacts-details{
+    padding:50px;
+  }
+
+  .contacts-upper{
+    margin-top:100px;
+    }
+
+
+  .contacts-lower{
+    margin-top:80px;
+    padding-bottom: 100px;
+    }
+
+
+
+  .contacts-col{
+      box-sizing: border-box;
+      padding: 0 50px;
+      padding-top: 0px;
+      font-weight: 300;
+  }
+
+
+  
+
+.contacts-country{
+font-size:20px;
+letter-spacing: -1px;
+line-height: 90%;
+}
+
+.contacts-city{
+font-size:26px;
+margin-bottom:10px;
+}
+
+
+
+
+.contacts-phone, .contacts-address, .contacts-mail{
+    font-size:20px;
+}
+
+
+.contacts-address::before, .contacts-phone::before, .contacts-mail::before, .contacts-instagram{
+    background-image: url('../images/sprite-icons.png');
+    background-repeat: no-repeat;
+    height: 35px;
+    width: 40px;
+    content: "";
+    display: block;
+    float: left;
+    margin: 0 auto;
+    
+    margin-top:2px;
+    margin-right: 15px;
+}
+
+.contacts-address::before{
+    background-position: 1px -3px;
+}
+
+.contacts-phone::before{
+    background-position: -41px -4px;
+    height: 35px;
+    width: 19px;
+    margin-left:10px;
+    margin-right:25px;
+    margin-top:5px;
+}
+
+.contacts-mail::before{
+    margin-top:5px;
+    margin-left: 3px;
+    margin-right: 12px;
+    height: 30px;
+    background-position: -176px -3px;
+}
+
+.contacts-mail a{
+    color:white;
+}
+
+.contacts-instagram{
+    background-position: -61px 0px;
+    width: 42px;
+    height: 42px;
+}
+
+.contacts-instagram:hover{
+    opacity: 0.7;
+}
