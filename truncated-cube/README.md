@@ -1,7 +1,7 @@
 # Truncated Cube (Truncated Hexahedron)
 
 Qt framework based project "Truncated cube model" which include:
-* color filled polygons
+* coloring filled polygons
 * linear perspective
 * flat shading
 * rotating animation
