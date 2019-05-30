@@ -36,7 +36,7 @@ We then take |K| chunks of text (basically we 'break' text into |K| blocks).
 Chunk of index i=1...|K| is a concatenation of every |K|-th letter starting from i.
 We can say that each chunk is encrypted with monoalphabetic 1-letter cipher.
 To find that 1-char key in each chunk we:
-* try decrypting the text-chunk with 1-letter key (26 option) and calculate every characters frequency
+* try decrypting the text-chunk with 1-letter key (26 options available) and calculate every characters frequency
 * choose the letter that produces closest (in terms of root mean square) to 'polish language character frequency table' result
 
 #### Average letter frequency in a Polish language text
