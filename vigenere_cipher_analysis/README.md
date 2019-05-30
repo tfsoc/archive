@@ -6,7 +6,7 @@ Cryptoanalysis consists of two parts:
     * Friedman test ([wiki](https://en.wikipedia.org/wiki/Friedman_test))
 2. Statistical attack
 
-[Preview](http://htmlpreview.github.io/?https://github.com/yawnkim/archive/blob/master/vigenere_cipher_analysis/index.html)
+**[Preview](http://htmlpreview.github.io/?https://github.com/yawnkim/archive/blob/master/vigenere_cipher_analysis/index.html)**
 
 ## Overview
 We are given a ciphertext encrypted with Vigenère cipher.
