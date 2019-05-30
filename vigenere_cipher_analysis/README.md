@@ -6,6 +6,8 @@ Cryptoanalysis consists of two parts:
     * Friedman test ([wiki](https://en.wikipedia.org/wiki/Friedman_test))
 2. Statistical attack
 
+[Preview](http://htmlpreview.github.io/?https://github.com/yawnkim/archive/blob/master/vigenere_cipher_analysis/index.html)
+
 ## Overview
 We are given a ciphertext encrypted with Vigenère cipher.
 Original plaintext is written in polish language (thought it can include some foreight words).
@@ -39,7 +41,7 @@ To find that 1-char key in each chunk we:
 
 #### Average letter frequency in a Polish language text
 | char | avg freq |
-|------|----------|
+|------|---------:|
 | a | 100 |
 | b | 15 |
 | c | 37 |
