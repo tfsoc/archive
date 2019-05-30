@@ -70,4 +70,4 @@ To find that 1-char key in each chunk we:
 | z | 65 |
 
 
-Finally, concat these 1-letter keys (in total of |K|) into result and in additional display decrypted raw text.
+Finally, concat these 1-letter keys ( in total of |K| ) into result and additionally display decrypted raw text.
