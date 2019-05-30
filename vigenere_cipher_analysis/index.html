@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+    <style>
+        *{
+            text-align:justify;
+        }
+        #cryptogram,#rawtext,#mylog{
+            border: 1px solid red;
+            margin: 5px auto;
+            padding: 5px;
+        }
+    </style>
+</head>
+<body>
+    <br>
+    <div class="container-fluid col-md-8">
+        <!--List do Aleksandra Wielkiego, Arystoteles-->
+        
+        <h4>Tekst zaszyfrowany</h4>
+        <div class="shadow p-3 mb-5 bg-white rounded" id="cryptogram">
+            xmvwj dsldi torpv jolvq pkcec aeaem qvrak eprwg pnvky nmrwd btisz pvtny oecrs
+            fhfas fpbsc dmkao hsbvy mijxg bmuss msjgs uafmm iqzec uyisc mescd xsaeg zdjdy
+            tgeen ddcsg jibmo noksb zxron pfido asikk omqsg bpain osdmk txftk nmvgy ucdmm
+            iarpk csgvk xsueg txnst fwkdb phciw essvy cckyv vhlxb xecit vgqgs xsjgs jwgsu
+            pnlac ssuty ehrri dlemo teudo cckeu cccsc myjdx baphk kidmc jiido ddgvj fgzax
+            bozin zrrpe edzwz bhrnk omvwj ddvwm jeemo qsbst bwzis cetdk oeksm ppvdi xmtls
+            oxvvo tmveu jiuce acjoe kesij qmvgj fwkay qsqak meaec jijoe tmtdv vdvtc vgzys
+            xcqfi xeaec jigsg tgzeq mmnsc dmaeu brrvj vgrgj vnesc dnroj fxiyn osfxy ccisj
+            teuiu tdvhv xtrvj fdusl ssscd fqbxy scemo txvxi oeagj fwtmo ksufs fvrrk nvfde
+            nmjtb bazej fsemw aegsw jrrqi
+        </div>
+        <button class ="btn btn-secondary" id="friedman-test">Friedman test</button>
+        <button class ="btn btn-secondary" id="kasiski-test">Kasiski test</button>
+        <br><br>
+        <div class="input-group">
+            <div class="input-group-prepend">
+                <span class="input-group-text">Dlugosc klucza</span>
+            </div>
+            <input class="form-control" type="text" id="mylen">
+        </div>
+        <br>
+
+        <button class ="btn btn-secondary" id="stat-test">Uzyj tabeli czestosci</button>
+        <br>
+        <br>
+        <div class="input-group">
+            <div class="input-group-prepend">
+                <span class="input-group-text">Klucz</span>
+            </div>
+            <input class="form-control" type='text' id='mykey'>
+        </div>
+        
+        <br>
+        <h4>Tekst Jawny</h4>
+        <div class="shadow p-3 mb-5 bg-white rounded" id="rawtext">
+        </div>
+
+        <div id= "mylog" readonly rows="8" cols="64">
+                
+        </div>
+
+    </div>
+    
+    <script src="js/jquery-3.3.1.slim.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
