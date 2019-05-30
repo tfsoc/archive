@@ -2,8 +2,8 @@
 
 Cryptoanalysis consists of two parts:
 1. Key length examination
-  * Kasiski test ([wiki](https://en.wikipedia.org/wiki/Kasiski_examination))
-  * Friedman test ([wiki](https://en.wikipedia.org/wiki/Friedman_test))
+    * Kasiski test ([wiki](https://en.wikipedia.org/wiki/Kasiski_examination))
+    * Friedman test ([wiki](https://en.wikipedia.org/wiki/Friedman_test))
 2. Statistical attack
 
 ## Overview
@@ -37,6 +37,7 @@ To find that 1-char key in each chunk we:
 * try decrypting the text-chunk with 1-letter key (26 option) and calculate every characters frequency
 * choose the letter that produces closest (in terms of root mean square) to 'polish language character frequency table' result
 
+#### Average letter frequency in a Polish language text
 | char | avg freq |
 |------|----------|
 | a | 100 |
