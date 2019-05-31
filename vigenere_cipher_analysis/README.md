@@ -73,4 +73,4 @@ To find that 1-char key in each chunk we:
 
 Finally, concat these 1-letter keys ( in total of |K| ) into result and additionally display decrypted raw text.
 
-There are two version of this program: html-page (which include calculation comments in console log output) and a python script with inline solution comments (main.py).
+There is also slightly modified version of a program in python script.
