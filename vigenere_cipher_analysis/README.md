@@ -8,6 +8,7 @@ Cryptoanalysis consists of two parts:
 
 **[Preview](http://htmlpreview.github.io/?https://github.com/yawnkim/archive/blob/master/vigenere_cipher_analysis/index.html)**
 
+
 ## Overview
 We are given a ciphertext encrypted with Vigenère cipher.
 Original plaintext is written in polish language (thought it can include some foreight words).
@@ -71,3 +72,5 @@ To find that 1-char key in each chunk we:
 
 
 Finally, concat these 1-letter keys ( in total of |K| ) into result and additionally display decrypted raw text.
+
+There are two version of this program: html-page (which include calculation comments in console log output) and a python script with inline solution comments (main.py).
