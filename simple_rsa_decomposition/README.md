@@ -1,6 +1,5 @@
 ## Desc
-RSA module decomposition
-Two versions available:
+RSA module decomposition available in two versions:
 1. Step-by-step generated solution in html ( inspired by WolframAlpha )
 2. Python script with solution comments
 
