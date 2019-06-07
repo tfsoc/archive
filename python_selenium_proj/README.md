@@ -1,6 +1,7 @@
 ## Desc
 Script that tests (plays) the web-based [game](https://www.invokergame.com/).
-It is played in guest mode, thus the ("cheated") score is not recorded.
+
+It is played in guest (no-login) mode, thus the score is not recorded.
 
 `-c, --with-click` - simulated the mouse click over html element instead of deafault keypress
 
